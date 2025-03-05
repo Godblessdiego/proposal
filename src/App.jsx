@@ -107,7 +107,7 @@ function App() {
         <div style={{ height: '600px', position: 'relative' }}>
             <RosaFlotante />
         </div>
-        <h1 className='text-center'>Te amo, Je t'aime, I love you, Ik hou van je!</h1>
+        <h1 className='text-center'>Te amo, Je t'aime, I love you, Ik hou van je Yuli!</h1>
     </div>
   )
 }
