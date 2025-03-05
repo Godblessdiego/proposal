@@ -1,0 +1,32 @@
+.circular-gallery {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.circular-gallery:active {
+    cursor: grabbing;
+}
+
+/* Añade esto para cargar la fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Para aplicar filtros a todas las imágenes de la galería */
+.circular-gallery canvas {
+    filter: brightness(1.1) contrast(1.2) saturate(1.3); /* Ajusta estos valores */
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Si quieres controlar los efectos con clases adicionales */
+.circular-gallery.warm-filter canvas {
+    filter: sepia(0.3) brightness(1.1) saturate(1.5);
+}
+
+.circular-gallery.cool-filter canvas {
+    filter: hue-rotate(30deg) brightness(1.1);
+}
+
+.circular-gallery.vintage-filter canvas {
+    filter: sepia(0.5) contrast(1.1) brightness(0.9) saturate(0.8);
+}

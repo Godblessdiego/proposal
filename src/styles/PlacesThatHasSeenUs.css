@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.places-section h2 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.places-icon {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.places-logo-container {
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff5f5;
+    box-shadow: 0 4px 6px rgba(216, 65, 142, 0.1);
+    margin-top: 20px;
+}
+
+.places-logo {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.8);
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.places-icon:hover .places-logo {
+    filter: grayscale(0%) brightness(1);
+    transform: scale(1.1);
+}
+
+.places-icon p {
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.places-icon:hover p {
+    color: #d4418e;
+}
+
+.places-icon:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,8 @@
+.blur-text {
+    font-size: 60px; /* Ajusta el tamaño según necesites */
+    font-weight: bold;
+    text-align: center; /* Opcional si quieres centrarlo */
+    margin-top: 80px;
+    font-family: Poppins, sans-serif;
+    color: #d4418e;
+}

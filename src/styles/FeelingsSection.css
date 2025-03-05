@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feelings-wrapper {
+    background: linear-gradient(90deg, #d4418e, #ffffff, #ffd166);
+    padding: 50px;
+    margin: 50px auto; /* margen top y centrar horizontalmente */
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px; /* ancho máximo para que se vea centrado en pantallas grandes */
+}
+
+.feeling-text {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .feeling-text {
+        font-size: 24px;
+    }
+}
