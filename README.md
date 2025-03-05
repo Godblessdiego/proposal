@@ -1,9 +1,5 @@
 # 💖 Mi Regalo de Amor
 
-![Captura de Pantalla 1](show-image-1.png)
-![Captura de Pantalla 2](show-image-2.png)
-![Captura de Pantalla 3](show-image-3.png)
-
 Una carta de amor interactiva creada con **React** y animaciones modernas para expresar sentimientos, compartir recuerdos y **proponer formalmente una relación**. 💌✨
 
 ---
